@@ -1,0 +1,24 @@
+1.Найди ошибку.
+Public Function pindala(b As Double)
+If b > 0 
+
+    pindala = (3 * Sqr(3 * b * b)) / 2
+    Else
+    pindala = "ei saa arvutada"
+End If
+End Function
+
+2. Найди ошибку.
+Public Function Ema_roobot()
+e = InputBox("Sisesta hinne")
+If e = "5" Then
+    Ema_roobot = "Tubli!"
+ElseIf e = "4" Then
+    Ema_roobot = "Hästi!"
+ElseIf e = "3" Then
+    Ema_roobot = "Rahuldav!"
+ElseIf e = "2" Then
+    Ema_roobot = "Paha!"
+ElseIf e = "1" Then
+    Ema_roobot = "Väga paha!"
+End Function
